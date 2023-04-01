@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Josefin+Sans&family=Montserrat:wght@300&family=Poppins&display=swap');
+
+html{ margin: 0; padding: 0;}
+body{
+    font-family: 'Assistant', sans-serif;
+    font-size: 18px;
+    background-color: white;
+}
+html {
+  margin-bottom: 100px;
+  padding: 0;
+}
+#wrapper{
+  width: 1300px;
+    min-height: 600px;
+
+}
+#header{
+    width: 98%;
+    height: 40px;
+    margin: 0 auto;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 20px;
+}
+.image {
+  width: 200px;
+  height: 250px;
+  image-resolution: 1000dpi;
+  margin-left: 610px;
+  padding-top: 100px;
+  margin-top: 40px;
+}
+h3.title {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: 'Calistoga', cursive;
+  text-align: center;
+}
+h3.addattend {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 380px;
+}
+h3.addemp {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 380px;
+}
+h3.adddeduct {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 380px;
+}
+h3.addpayroll {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 380px;
+}
+h3.profile {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 230px;
+}
+h3.deduction {
+  font-size: 1.17em;
+  margin-right: 840px;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+}
+h3.employee {
+  font-size: 1.17em;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+}
+h3.attendance {
+  font-size: 1.17em;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+}
+h3.payroll {
+  font-size: 1.17em;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+}
+#menu{
+  height: 24px;
+  width: 1420px;
+  padding-left: 15px;
+  word-spacing: 5px;
+  padding-top: 10px;
+}
+#second-submenu{
+    height: 24px;
+    width: 98%;
+}
+#third-submenu{
+  height: 24px;
+  width: 98%;
+  color: #1D213D;
+  text-align: right;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 12px;
+  text-decoration: none;
+  padding-top: 10px;
+}
+#third-submenu a:link{
+  text-decoration: none;
+  color: #1D213D;
+}
+#third-submenu a:visited{
+  color: #1652a7;
+}
+#menu a, #second-submenu a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+#menu a:hover, #second-submenu a:hover{
+    text-decoration: none;
+    color: #4D98FF;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+#content{
+    width: 1420px;
+    padding: 10px;
+    padding-top: 20px;
+    height: 720px;
+    background-color: white;
+}
+#subcontent{
+    width: 1345px;
+    padding: 4px;
+    padding-top: 10px;
+    margin-left: 15px;
+}
+a.move-right{
+  float: right;
+}
+span.move-right{
+  float: right;
+}
+/* FORM */
+.input, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.input1 {
+  width: 210%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.input2 {
+  width: 205%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color: #1652a7;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+input[type=submit]:hover {
+  background-color: #1652a7;
+}
+
+#form-block {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  width: 600px;
+  height: 350px;
+  margin-left: 380px;
+}
+#form-block #form-block-half{
+    width: 45%;
+    float: left;
+    padding: 20px;
+    margin-left: 15px;
+}
+#form-block-center {
+  width: 50%;
+  height: 1px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left: 15px;
+}
+#form-block1{
+  width: 50%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left: 15px;
+  height: 1px;
+}
+#button-block{
+  width: 150%;
+  padding-top: 280px;
+  margin-left: 460px;
+}
+#button-block1{
+  width: 150%;
+  padding-top: 240px;
+  margin-left: 480px;
+}
+#button-block2{
+  width: 150%;
+  padding-top: 240px;
+  margin-left: 480px;
+}
+#button-block3{
+  width: 150%;
+  padding-top: 35px;
+  margin-left: 460px;
+}
+#button-block4{
+  width: 150%;
+  padding-top: 15px;
+  margin-left: 327px;
+}
+/** end */
+
+#data-list {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#data-list td, #data-list th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#data-list tr:nth-child(even){background-color: #f2f2f2;}
+
+#data-list tr:hover {background-color: #ddd;}
+
+#data-list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1652a7;
+  color: white;
+}
+#login-block{
+  width: 30%;
+  height: 280px;
+  margin-left: 500px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+#brand-block{
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  color: #f7f7f7;
+  width: 40%;
+  height: 50px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+#error_notif {
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: 'Calistoga', cursive;
+}
+
+* {box-sizing: border-box}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Float cancel and delete buttons and add an equal width */
+.cancelbtn, .confirmbtn, .submitbtn  {
+  float: right;
+  width: 30%;
+}
+
+/* Add a color to the cancel button */
+.cancelbtn {
+  background-color: #ccc;
+  color: black;
+}
+
+/* Add a color to the delete button */
+.confirmbtn {
+  background-color: #f44336;
+}
+.btn-jsactive{
+  text-decoration: underline;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* Add a color to the delete button */
+.submitbtn {
+  background-color: #04AA6D;
+}
+
+/* Add padding and center-align text to the container */
+.container {
+  padding: 16px;
+  text-align: left;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(255,255,255,70%);
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 4px solid #888;
+  width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Modal Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and delete button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .confirmbtn, .submitbtn {
+    width: 100%;
+  }
+}
+.btn-box{
+  width: 50%;
+  text-align: right;
+  margin-left: 575px;
+  margin-top: 10px;
+}
+#receive-details table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+.info-text{
+  font-weight: bold;
+}
+/*tr:nth-child(even){background-color: #f2f2f2}*/
+.tmbnail{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 60px;
+}
+.tmbnail:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
